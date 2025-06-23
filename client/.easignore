@@ -1,0 +1,10 @@
+# don’t bundle Gradle’s cache
+android/.gradle/
+
+# skip CMake / intermediate build outputs
+android/app/.cxx/
+android/app/build/
+
+# skip IDE files
+android/.idea/
+*.iml
